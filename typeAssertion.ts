@@ -1,4 +1,6 @@
-let anything: any;
+{
+
+    let anything: any;
 anything = "Next Level Web Development";
 anything = 12344;
 
@@ -30,4 +32,5 @@ try{
 }catch(error){
     console.log((error as customeError).message)
 
+}
 }
