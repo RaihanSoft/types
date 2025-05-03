@@ -6,7 +6,17 @@
         age: number;
     }
     type rollnumber = number;
+
+
+    
     type userwithroll1 = user1 & {role : string}
+    
+    interface UserWithRole2  extends User2{
+        role:string 
+    }
+
+
+
     
     const User1: UserWithRole2 = {
         name: "Raihan",
@@ -18,12 +28,6 @@
         name :string;
         age : number;
     }
-
-
-    interface UserWithRole2  extends User2{
-        role:string 
-    }
-
 
 
 
